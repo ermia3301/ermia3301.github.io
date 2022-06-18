@@ -1,0 +1,31 @@
+html,body{
+  background: url(more.jpg) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+h1{
+	text-transform: uppercase;
+	color: white;
+
+}
+
+.container{
+	flex-wrap: wrap;
+}
+
+img{
+	margin: 2em;
+	transition: all 1s;
+}
+
+img:hover{
+  transform: scale( 1.1);
+}
+
+h2{
+	text-transform: uppercase;
+	color: red;
+}
